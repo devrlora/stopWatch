@@ -1,6 +1,6 @@
 import React from "react";
 
-const Buttons= React.createclass({
+const Buttons = React.createclass({
 
     render:function(){
         return <div>
@@ -10,6 +10,8 @@ const Buttons= React.createclass({
 }
 });
 
-React.render(<Buttons/>,document.body);
-// export default Buttons;
+React.render({Buttons},document.body);
+ export default Buttons;
+
+
 
