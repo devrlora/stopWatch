@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Buttons from './Buttons';
+import Timer from './Timer';
 
 function App() {
  
   return (
     <div className="App">
-      <Buttons />
+      <Timer />
     </div>
   );
   }
