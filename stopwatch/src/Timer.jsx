@@ -56,7 +56,7 @@ class Timer extends Component {
         /* return new state of button*/
     return(
       <div>
-        <h1>{(this.state.time)}</h1>
+        <h1>Seconds Passed: {(this.state.time)/1000}</h1>
         <div>
         {startTime}
         {resume}
