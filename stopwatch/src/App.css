@@ -3,7 +3,6 @@
 }
 body{
   background: rgb(2,0,36);
-  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,96,131,1) 25%, rgba(0,212,255,1) 100%); */
   background-image: url('https://videohive.img.customer.envatousercontent.com/files/dddc97f2-2ec0-4bb1-b71f-fb6e3ea1d504/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=96bda7f167fb8c7588e93b68ded850e5');
   background-repeat: no-repeat, repeat;
   background-size: cover;
