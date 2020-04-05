@@ -6,7 +6,6 @@ function App() {
  
   return (
     <div className="App">
-      <p>Display time here</p>
       <Buttons />
     </div>
   );
