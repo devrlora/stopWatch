@@ -21,21 +21,30 @@ class Timer extends Component {
     start(){
         this.setState({
             time: this.state.time,
-            isOn: false,
+            isOn: true,
             startTime: Date.now() - this.state.time
           })
-      
+          this.timer = setInterval(() => this.setState({
+            time: Date.now() - this.state.startTime
+          }), .1000);
           }
-    
+    stop(){
+      this.setState({
+        isOn: false,
+        startTime: Date.now() - this.state.time
+      })
+    }
     render(){
 
         /* boolean statement that checks if button was started or not*/
-
+// let start= {this.state.time ===0};
         return ( 
         /* return new state of button*/
         <div>
-            <h1>time</h1>
-        <button>Start</button>
+            <h1>{this.state.startTime}</h1>
+        <button >Start</button>
+       
+
         <button>Stop</button>
         <button>Reset</button>
         </div>
